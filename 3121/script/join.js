@@ -1,0 +1,1 @@
+function t(){if(document.getElementById("gt").value==window.atob("MzEyMSBub3QgYSBwc3ljaG8=") || document.getElementById("gt").value==window.atob("MzEyMSBub3QgYSBwc3ljaG9wYXRoZQ==")){alert(window.atob("aHR0cHM6Ly9pYmIuY28va01GanJSZg=="))}else{alert("find the image")}}

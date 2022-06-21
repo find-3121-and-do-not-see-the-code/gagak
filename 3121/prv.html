@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="./img/gagak.png" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prove it</title>
+  <style>        
+    input::placeholder { 
+      color: #fff;
+      opacity: 1;
+      }
+      input:-ms-input-placeholder {
+        color: #fff;
+      }
+
+      input::-ms-input-placeholder {
+        color: #fff;
+      }
+      main button:hover{
+        background-color: #fff !important;
+        color: #000 !important;
+      }
+      input{
+        outline: none;color:#fff;padding: 10px 20px;border: none;border-radius: 4px;background-color: #811010;
+      }
+      @media screen and (max-width:700px) {
+        body{
+          text-align: center;
+        }
+      }
+
+  </style>
+</head>
+<body onload="" style="color: #fff;background-color: #000;">
+  <main style="display: flex;align-items: center;justify-content: center;flex-direction: column;">
+    <h2>prove it</h2>
+    <p>if you find the image you know what is the Agreement write it (lowercase answer only)</p>
+    <input id="gt" placeholder="enter the agreement">
+    <button style="transition: 0.5s;cursor:pointer;margin: 10px;padding: 5px 30px;border: solid #fff;background-color: transparent;color: #fff;border-radius: 4px;" onclick="t()">submit</button>
+  </main>
+  <script src="./script/join.js"></script>
+</body>
+</html>
